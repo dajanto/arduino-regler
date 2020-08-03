@@ -1,13 +1,5 @@
 int analogPin;
 int stickValue;  
-float steps;
-
-int led1;
-int led2;
-int led3;
-int led4;
-int led5;
-int led6;
 
 void setup() {
   
@@ -35,7 +27,6 @@ void loop() {
 		case 0: 
 
 			setPhase(0,0,0,0,0,0);
-
 		break;
 
 		case 1: 
